@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Django Girls blog</title>
+    </head>
+    <body>
+        <h1>
+            <a href="{% url 'blog.views.post_new' %}">NUEVO</a>
+        </h1>
+
+        {% block content %}
+        {% endblock %}
+
+    </body>
+</html>
